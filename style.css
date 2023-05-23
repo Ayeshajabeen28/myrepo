@@ -1,0 +1,229 @@
+@import url("http://googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color:hsl(293, 100%, 63%);
+    font-family: 'Rubil',sans-serif;
+}
+.mobile{
+    width: 350px;
+    height: 635px;
+    border: 12px solid #fff;
+    border-radius: 32px;
+    margin-top: 40px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+    box-shadow: 0 30px 20pxhsl(293, 100%, 63%);
+
+}
+.header{
+    height: 90px;
+    background: linear-gradient(to right,- Light Magenta: hsl(293, 100%, 63%)
+    , hsl(264, 100%, 61%)
+    );
+    border-radius: 20px 20px 10px 10px;
+}
+.header::before{
+    content: '';
+    position: absolute;
+    top: 52px;
+    left: 239px;
+    width: 200px;
+    height: 28px;
+    background-color: #fff;
+    border-radius: 0px 0px 16px 16px;
+}
+.desc{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 42px 20px;
+
+
+}
+.vron{
+    margin-top: 0px;
+    margin-right: 16px;
+    opacity: 0.8px;
+    position: relative;
+}
+.vron::before{
+    content: '';
+    top: -8px;
+    left: 0px;
+    width: 3px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    transform: skew(-28deg,0deg);
+}
+.creator img{
+    width: 35px;
+    height: 35px;
+    border-radius: 51px;
+    margin-top: 2px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+
+}
+.nmae{
+    color: #fff;
+
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-top: -4px;
+}
+.status{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+}
+.dots{
+    width: 4px;
+    height: 4px;
+    margin-left: 280px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+.dots::before{
+    content: '';
+    border-radius: 50%;
+    background-color: #fff;
+    left: 0px;
+    top: -6px;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+}
+.dots::after{
+    border-radius: 50%;
+    content: '';
+    background-color: #fff;
+    left: 0px;
+    top: 6px;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+}
+.letter{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 10px;
+    font-size: 12px;
+    border-radius: 10px 10px 20px 20px;
+}
+.text{
+    border-radius: 15px;
+}
+.reply{
+    background-color: hsl(206, 6%, 79%);
+    max-width: 60%;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    padding: 8px 10px 8px 12px;
+    color: hsl(274, 55%, 52%);
+    border-bottom-left-radius: 0px;
+
+}
+.pics{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.pics img{
+    width: 72px;
+    padding: 5px 7px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+.user{
+    box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+    margin-right: 5px;
+    margin-top: 7px;
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    max-width: 60px;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+    color: hsl(271, 15%, 43%);
+    background-color: #fff;
+    margin-left: 120px;
+}
+.user1{
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+.offer{
+    height: 45px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    border-bottom-left-radius: 0;
+    justify-content: space-between;
+    max-width: 65%;
+    background: linear-gradient( to right, hs1(293,100%,63%), hs1(264,100%,61%));
+    padding: 2px 25px 2px 13px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 15px;
+}
+.offer div{
+    opacity: 0.5;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+
+}
+.offer div{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    opacity: 0.5;
+}
+.offer p{
+    margin-left: -12px;
+    opacity: 0.8;
+}
+.offer span{
+    margin-left: -12px;
+    opacity: 0.8;
+}
+.hour{
+    margin-left: -32px !important;
+}
+form{
+    display: inline-flex;
+    margin-top: 5px;
+}
+input{
+    width: 100%;
+    padding: 10px 25px 15px;
+    border-radius: 35px;
+    border: 1px solid hsl(270, 20%, 96%);
+    opacity: 0.8;
+    box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+}
+input:focus{
+    outline: none;
+}
+.arrow{
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    padding: 0px 11px;
+    height: 36px;
+    margin-left: -47px;
+    margin-top: 7px;
+    z-index: 100;
+}
